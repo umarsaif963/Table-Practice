@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" width="100%">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Roll No</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th>Password</th>
+    </tr>
+  </thead>
+  <tbody id="studentTableBody">
+  </tbody>
+</table>
+<form style="margin-bottom:15px;">
+  <input type="text" id="name" placeholder="Name">
+  <input type="number" id="roll" placeholder="Roll No">
+  <input type="email" id="email" placeholder="Email">
+  <input type="text" id="phone" placeholder="Phone">
+  <input type="password" id="pass" placeholder="Password">
+  <button type="button" onclick="addStudent()">Submit</button>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
