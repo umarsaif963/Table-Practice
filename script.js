@@ -50,7 +50,7 @@ function addStudent() {
     pass: pass
   });
 
-  
+  loadStudents();
 
   document.getElementById("name").value = "";
   document.getElementById("roll").value = "";
